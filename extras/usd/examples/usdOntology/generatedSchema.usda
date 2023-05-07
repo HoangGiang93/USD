@@ -22,8 +22,8 @@ class "RdfAPI"
 
 class "SemanticTagAPI"
 {
-    rel semanticTag:semanticRelation (
-        doc = "Semantic relation"
+    rel semanticTag:semanticLabel (
+        doc = "Semantic label"
     )
 }
 

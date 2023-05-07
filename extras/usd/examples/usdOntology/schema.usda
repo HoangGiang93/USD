@@ -50,10 +50,10 @@ class "SemanticTagAPI" (
     inherits = </APISchemaBase>
 )
 {
-    rel semanticTag:semanticRelation (
+    rel semanticTag:semanticLabel (
         customData = {
-            string apiName = "semanticRelation"
+            string apiName = "semanticLabel"
         }
-        doc = "Semantic relation"
+        doc = "Semantic label"
     )
 }

@@ -114,10 +114,10 @@ void wrapUsdOntologySemanticTagAPI()
 
 
         
-        .def("GetSemanticRelationRel",
-             &This::GetSemanticRelationRel)
-        .def("CreateSemanticRelationRel",
-             &This::CreateSemanticRelationRel)
+        .def("GetSemanticLabelRel",
+             &This::GetSemanticLabelRel)
+        .def("CreateSemanticLabelRel",
+             &This::CreateSemanticLabelRel)
         .def("__repr__", ::_Repr)
     ;
 

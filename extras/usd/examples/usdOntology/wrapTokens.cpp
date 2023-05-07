@@ -66,7 +66,7 @@ void wrapUsdOntologyTokens()
         cls("Tokens", boost::python::no_init);
     _AddToken(cls, "rdfConceptName", UsdOntologyTokens->rdfConceptName);
     _AddToken(cls, "rdfNamespace", UsdOntologyTokens->rdfNamespace);
-    _AddToken(cls, "semanticTagSemanticRelation", UsdOntologyTokens->semanticTagSemanticRelation);
+    _AddToken(cls, "semanticTagSemanticLabel", UsdOntologyTokens->semanticTagSemanticLabel);
     _AddToken(cls, "Ontology", UsdOntologyTokens->Ontology);
     _AddToken(cls, "RdfAPI", UsdOntologyTokens->RdfAPI);
     _AddToken(cls, "SemanticTagAPI", UsdOntologyTokens->SemanticTagAPI);

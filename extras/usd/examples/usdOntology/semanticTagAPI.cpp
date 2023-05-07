@@ -103,15 +103,15 @@ UsdOntologySemanticTagAPI::_GetTfType() const
 }
 
 UsdRelationship
-UsdOntologySemanticTagAPI::GetSemanticRelationRel() const
+UsdOntologySemanticTagAPI::GetSemanticLabelRel() const
 {
-    return GetPrim().GetRelationship(UsdOntologyTokens->semanticTagSemanticRelation);
+    return GetPrim().GetRelationship(UsdOntologyTokens->semanticTagSemanticLabel);
 }
 
 UsdRelationship
-UsdOntologySemanticTagAPI::CreateSemanticRelationRel() const
+UsdOntologySemanticTagAPI::CreateSemanticLabelRel() const
 {
-    return GetPrim().CreateRelationship(UsdOntologyTokens->semanticTagSemanticRelation,
+    return GetPrim().CreateRelationship(UsdOntologyTokens->semanticTagSemanticLabel,
                        /* custom = */ false);
 }
 

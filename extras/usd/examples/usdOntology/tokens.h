@@ -70,10 +70,10 @@ struct UsdOntologyTokensType {
     /// 
     /// UsdOntologyRdfAPI
     const TfToken rdfNamespace;
-    /// \brief "semanticTag:semanticRelation"
+    /// \brief "semanticTag:semanticLabel"
     /// 
     /// UsdOntologySemanticTagAPI
-    const TfToken semanticTagSemanticRelation;
+    const TfToken semanticTagSemanticLabel;
     /// \brief "Ontology"
     /// 
     /// Schema identifer and family for UsdOntologyOntology

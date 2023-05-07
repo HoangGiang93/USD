@@ -28,14 +28,14 @@ PXR_NAMESPACE_OPEN_SCOPE
 UsdOntologyTokensType::UsdOntologyTokensType() :
     rdfConceptName("rdf:conceptName", TfToken::Immortal),
     rdfNamespace("rdf:namespace", TfToken::Immortal),
-    semanticTagSemanticRelation("semanticTag:semanticRelation", TfToken::Immortal),
+    semanticTagSemanticLabel("semanticTag:semanticLabel", TfToken::Immortal),
     Ontology("Ontology", TfToken::Immortal),
     RdfAPI("RdfAPI", TfToken::Immortal),
     SemanticTagAPI("SemanticTagAPI", TfToken::Immortal),
     allTokens({
         rdfConceptName,
         rdfNamespace,
-        semanticTagSemanticRelation,
+        semanticTagSemanticLabel,
         Ontology,
         RdfAPI,
         SemanticTagAPI

@@ -163,17 +163,17 @@ private:
 
 public:
     // --------------------------------------------------------------------- //
-    // SEMANTICRELATION 
+    // SEMANTICLABEL 
     // --------------------------------------------------------------------- //
-    /// Semantic relation
+    /// Semantic label
     ///
     USDONTOLOGY_API
-    UsdRelationship GetSemanticRelationRel() const;
+    UsdRelationship GetSemanticLabelRel() const;
 
-    /// See GetSemanticRelationRel(), and also 
+    /// See GetSemanticLabelRel(), and also 
     /// \ref Usd_Create_Or_Get_Property for when to use Get vs Create
     USDONTOLOGY_API
-    UsdRelationship CreateSemanticRelationRel() const;
+    UsdRelationship CreateSemanticLabelRel() const;
 
 public:
     // ===================================================================== //
